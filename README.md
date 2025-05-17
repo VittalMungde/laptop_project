@@ -1,20 +1,20 @@
-# 💻 Laptop Recommendation System with Chatbot using RAG + Streamlit
+#  Laptop Recommendation System with Chatbot using RAG + Streamlit
 
 This project is an end-to-end **Laptop Recommendation System** enhanced by a **chatbot assistant** that uses a **RAG (Retrieval-Augmented Generation)** pipeline powered by **SentenceTransformers**, **BM25**, and **Large Language Models (LLMs)**. Built with a modular design and a clean Streamlit UI, it allows users to search for laptops using natural language and interact via a smart chatbot.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔍 **Hybrid Laptop Search**: Combines keyword matching (BM25) + semantic similarity (embeddings)
-- 🤖 **Chatbot Assistant**: Conversational UI for refining and narrowing search results
-- 🧠 **LLM Integration**: Uses pre-trained transformer model to semantically match user queries
-- 🔁 **RAG Pipeline**: Retrieval + generation-based approach
-- 🌐 **Streamlit Frontend**: Clean, interactive UI with real-time updates
+-  **Hybrid Laptop Search**: Combines keyword matching (BM25) + semantic similarity (embeddings)
+-  **Chatbot Assistant**: Conversational UI for refining and narrowing search results
+-  **LLM Integration**: Uses pre-trained transformer model to semantically match user queries
+-  **RAG Pipeline**: Retrieval + generation-based approach
+-  **Streamlit Frontend**: Clean, interactive UI with real-time updates
 
 ---
 
-## 🧠 RAG Pipeline Overview
+##  RAG Pipeline Overview
 
 ```mermaid
 flowchart LR
@@ -31,7 +31,7 @@ E --> F[Final Laptop Recommendations to UI]
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 ├── laptop_data.csv          # Raw laptop dataset (used in preprocessing)
@@ -55,7 +55,7 @@ E --> F[Final Laptop Recommendations to UI]
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 ### 1. `preprocessing.py`
 - Cleans raw data
@@ -79,7 +79,7 @@ E --> F[Final Laptop Recommendations to UI]
 
 ---
 
-## 🧪 How to Run
+##  How to Run
 
 1. Install requirements:
 ```bash
@@ -98,7 +98,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## 🧾 Example Queries
+##  Example Queries
 
 - “I want a lightweight laptop with good battery backup under ₹60,000”
 - “Show gaming laptops with SSD and minimum 8GB RAM”
@@ -106,22 +106,22 @@ streamlit run streamlit_app.py
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 > (Add your UI and chatbot screenshots here)
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [SentenceTransformers](https://www.sbert.net/)
 - [Rank_BM25](https://github.com/dorianbrown/rank_bm25)
 - [Streamlit](https://streamlit.io/)
-- HuggingFace 🤗 for model support
+- HuggingFace for model support
 
 ---
 
-## ✅ To-Do (Optional Enhancements)
+##  To-Do (Optional Enhancements)
 
 - [ ] Integrate OpenAI/Gemini LLM for response generation
 - [ ] Add filters for price range, brand, processor via sidebar
