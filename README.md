@@ -16,14 +16,6 @@ This project is an end-to-end **Laptop Recommendation System** enhanced by a **c
 
 ##  RAG Pipeline Overview
 
-```mermaid
-flowchart LR
-A[User Query] --> B[Preprocessing + Normalization]
-B --> C[Retrieval with BM25 + Sentence Embeddings]
-C --> D[Top K Relevant Laptops]
-D --> E[Chatbot Filtering/Refinement (if any)]
-E --> F[Final Laptop Recommendations to UI]
-```
 
 - **Retrieval**: BM25 + embeddings (MiniLM) used to fetch top-K relevant documents
 - **Augmentation**: Result passed to chatbot layer for refinement (if query continues)
