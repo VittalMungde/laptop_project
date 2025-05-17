@@ -104,18 +104,4 @@ streamlit run streamlit_app.py
 
 ---
 
-##  Acknowledgments
 
-- [SentenceTransformers](https://www.sbert.net/)
-- [Rank_BM25](https://github.com/dorianbrown/rank_bm25)
-- [Streamlit](https://streamlit.io/)
-- HuggingFace for model support
-
----
-
-##  To-Do (Optional Enhancements)
-
-- [ ] Integrate OpenAI/Gemini LLM for response generation
-- [ ] Add filters for price range, brand, processor via sidebar
-- [ ] Save chat history and favorites
-- [ ] Deploy on Streamlit Cloud / HuggingFace Spaces
