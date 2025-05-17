@@ -98,10 +98,4 @@ streamlit run streamlit_app.py
 
 ---
 
-##  Screenshots
-
-> (Add your UI and chatbot screenshots here)
-
----
-
 
